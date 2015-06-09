@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+        <link href="styles/media-queries.css" rel="stylesheet" type="text/css"/>
+        <link href="libs/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
+        <script src="libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="libs/jquery.bxslider.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="wrapper">
+                <header id="header" class="clearfix">
+                    <h1>portfolio</h1>
+                    <button id="btn-navigation">&Assign;</button>
+                    <nav id="navigation">
+                        <ul>
+                            <li>
+                                <a href="#">about me</a>
+                            </li>
+                            <li>
+                                <a href="#">portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <div id="content" class="clearfix">
+                    <article id="about-me">
+                        <header>
+                            <h2>about me</h2>
+                        </header>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Mauris quam est, porta 
+                            quis sapien vitae, varius viverra erat. 
+                            Quisque pretium mollis dui, a faucibus 
+                            urna cursus et. Pellentesque justo lacus, 
+                            sagittis eu mollis id, facilisis at arcu.
+                            Donec ut ex lacus. Donec et leo non arcu 
+                            fringilla tincidunt. Aliquam ligula massa, 
+                            dictum vel eros sed, interdum aliquam nibh. 
+                            Etiam ut auctor felis. Proin consectetur 
+                            ipsum nisi, quis egestas massa hendrerit 
+                            at. Aliquam maximus non velit scelerisque 
+                            commodo. Ut tincidunt quis lectus vel semper.
+                            Curabitur quis metus neque. 
+                        </p>
+                        <footer id="article-footer" class="clearfix">
+                            <aside id="aside-twitter">
+                                <p>Fallow me on Twitter</p>
+                                <img alt="twitter" src="images/twitter.png"/>
+                            </aside>
+                            <aside id="aside-facebook">
+                                <p>Find me on Facebook</p>
+                                <img alt="facebook" src="images/facebook.png"/>
+                            </aside>
+                        </footer>
+                    </article>
+                    <article id="portfolio" class="clearfix">
+                        <header>
+                            <h2>portfolio</h2>
+                        </header>
+                        <div id="slider">
+                            <a href="#" id="slide-1" class="slide" >                            
+                                <img alt="template 1" src="images/template-1.png" />
+                            </a>
+                            <a href="#" id="slide-2" class="slide">
+                                <img alt="template 2" src="images/template-2.png" />
+                            </a>
+                            <a href="#" id="slide-3" class="slide">
+                                <img alt="template 3" src="images/template-3.png" />
+                            </a>
+                            <a href="#" id="slide-4" class="slide">
+                                <img alt="template 4" src="images/template-4.png" />
+                            </a>
+                            <a href="#" id="slide-5" class="slide">
+                                <img alt="template 5" src="images/template-5.png" />
+                            </a>
+                        </div>
+                    </article>
+                    <aside id="hire-me" class="clearfix">
+                        <header>
+                            <h2>get interested? hire me</h2>
+                        </header>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Mauris quam est, porta 
+                            quis sapien vitae, varius viverra erat. 
+                            Quisque pretium mollis dui, a faucibus 
+                            urna cursus et. Pellentesque justo lacus, 
+                            sagittis eu mollis id, facilisis at arcu.
+                            Donec ut ex lacus. Donec et leo non arcu 
+                            fringilla tincidunt.
+                        </p>
+                    </aside>
+                    <aside id="contact-with-me" class="clearfix">
+                        <h3>Whats your name?</h3>
+                        <input type="text" placeholder="Enter your name here"/>
+                        <h3>Your E-Mail?</h3>
+                        <input type="email" placeholder="Enter your email adddress here"/>
+                        <h3>Okay. What can I do for you?</h3>
+                        <input type="text" placeholder="Enter your name here"/>
+                        <button>Submit</button>
+                    </aside>
+                </div>
+            </div>
+            <img alt="coffee" id="coffee" src="images/coffee-cup.png"/>
+            <img alt="phone" id="phone" src="images/note.png"/>
+        </div>
+        <script src="scripts/script.js" type="text/javascript"></script>
+    </body>
+</html>

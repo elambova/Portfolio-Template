@@ -1,0 +1,159 @@
+html, body, div, header, aside, article, section, footer,
+p, a, img, ul, li, button, h1, h2, h3, input {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #fff url("../images/bg.jpg") repeat top left;
+    font: 12px 'Indie Flower', cursive;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #00ffcc;
+    font-weight: bold;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+input {
+    background: none;
+    border-bottom: 1px solid #00f;
+    border-right: 1px solid #00f;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 10px;
+}
+.clearfix:after{
+    clear: both;
+    display: block;
+    content: " ";
+    height: 0;
+}
+#btn-navigation{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 110px;
+}
+#container{
+    width: 90%;
+    margin-left: 5%;
+}
+#coffee {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    z-index: -1;
+    width: 25%;
+}
+#phone {
+    position: absolute;
+    top: 35%;
+    right: 0.1%;
+    z-index: -1;
+    width: 25%;
+}
+#wrapper {
+    width: 82%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    background: #fff url("../images/bg-content.jpg") no-repeat top center;
+}
+#header, #content {
+    padding: 5%;
+}
+#header {
+    text-transform: uppercase;
+}
+#header h1 {
+    font-size: 4em;
+    float: left;
+    width: 40%;
+}
+#navigation {
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+#navigation li {
+    padding: 5%;
+    font-size: 1.5em;
+}
+
+#content h2 {
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+#portfolio {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 95%;
+
+}
+#aside-facebook, #aside-twitter {
+    width: 30%;
+    margin-top: 2%;
+    float: left;
+}
+#article-footer  p {
+    font-weight: bold;
+    float: left;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#slider {
+    width: 90%;
+}
+#slide-1 img, #slide-2 img, #slide-3 img, #slide-4 img, #slide-5 img {
+    width: 100%;
+}
+#slide-2, #slide-3, #slide-4, #slide-5 {
+    display: none;
+}
+#hire-me {
+    width: 45%;
+    float: left;
+    color: #000;
+}
+#contact-with-me {
+    color: #000;
+    width: 45%;
+    float: right;
+}
+#contact-with-me h3 {
+    font-weight: bold;
+    margin-top: 5%;
+}
+#contact-with-me input {
+    width: 90%;
+
+}
+#contact-with-me input:last-of-type {
+    height: 50px;
+    margin-bottom: 1%;
+
+}
+#contact-with-me button{
+    background: none;
+    width: 40%;
+    margin: 2% 25% 5% 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

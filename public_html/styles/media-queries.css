@@ -1,0 +1,84 @@
+@media screen and (min-width:1600px){
+    html{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    body{
+        /*blue*/
+        background-color: #1095d2;
+    }
+    #hire-me, #contact-with-me {
+        margin-top: 5%;
+    }
+    #contact-with-me {
+        margin-bottom: 5%;
+    }
+}
+@media screen and (max-width: 880px) {
+    body{
+        /*gray*/
+        background-color: #d4d4d4;
+    }
+
+}
+@media screen and (max-width: 780px) {
+    body{
+        /*bordo*/
+        background-color: #4a1616;
+    }
+}
+@media screen and (max-width: 680px) {
+    body{
+        /*dark yellow*/
+        background-color: #ddac2c;
+    }
+}
+@media screen and (max-width: 630px) {
+    body{
+        /*purple*/
+        background-color: #590ce3
+    }
+}
+@media screen and (max-width: 580px) {
+    body{
+        /*green*/
+        background-color: #3add2c;
+    }
+    #header h1{
+        display: block;
+        width: 100%;
+    }
+    #btn-navigation{
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #navigation{
+        display: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    #navigation li{
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    #header{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        /*pink*/
+        background-color: #ce2ea6;
+    }
+}
+@media screen and (max-width: 400px) {
+    body{
+        /*orange*/
+        background-color: #e34d0c;
+    }
+}
